@@ -1,16 +1,16 @@
 // write your code below!
 function happyHolidays() {
-return "Happy Holidays"
+return "Happy holidays!"
 }
 // function which takes in a parameter.
 function happyHolidaysTo(Name) {
-return "Happy Holidays, ${Name}"
+return "Happy holidays, ${Name}!"
 }
 // function which takes in multiple parameters
 function happyHolidaysTo(Holiday, Name) {
-return "Happy Holidays, ${Holiday}, ${Name}"
+return "Happy ${Holiday}, ${Name}!"
 }
 // function which takes in multiple parameters
-function happyHolidaysTo(Holiday, Days) {
-return "Happy holidays, congratulations you have ${Days} until you leave for ${Holiday}"
+function holidayCountdown(Holiday, Days) {
+return "It's ${Days} days until ${Holiday}!"
 }
